@@ -11,5 +11,6 @@
   "license": "MIT",
   "dependencies": {
     "element-ui": "^2.15.9"
-  }
+  },
+  "gitHead": "d1d09dbd8c7afa196573866683d236573f2e13d8"
 }
