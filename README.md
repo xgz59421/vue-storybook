@@ -1,7 +1,24 @@
 
+# storybook
+```
+1. 创建storybook, 选择vue
+  npx sb init
+2. 创建后可能会缺少vue包
+  npm i vue
+3. 手动改成 workspaces
+4. 登录npm
+  npm login
+  需要切换镜像到 npm config set registry https://registry.npm.taobao.org
+5. lerna
+  安装 npm i lerna -g
+  lerna init
+  lerna publish
+6. 查看发包
+  https://www.npmjs.com/settings/xgz59421/packages
+7. 切回镜像
+  npm config set registry https://registry.npmjs.org
 
-
-
+```
 
 #### 发包打印
 ```
@@ -25,5 +42,4 @@ lerna success No changed packages to publish
 
 // 此时没有的发包成功
 // git commit后, 再次执行 lerna publish
-
 ```
